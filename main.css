@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.8;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    padding: 10px;
+}
+
+header img {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 15px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: wheat;
+}
+
+.icon {
+    margin-right: auto;
+}
+
+.content {
+    height: 700px;
+    background-size: cover;
+    margin: 20px 40px;
+    background-image: url(images/img-mission-background.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.content h2 {
+    padding-bottom: 15px;
+}
+
+.content div {
+    background-color: rgba(0, 0, 0, 0.733);
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    line-height: 40px;
+
+}
+
+.mid-content {
+    margin: 40px 40px;
+}
+
+.mid-content .heading {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 22px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    line-height: 40px;
+}
+
+.heading h2 {
+    padding-bottom: 10px;
+}
+
+.figures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+figcaption {
+    padding-top: 10px;
+}
+
+.location {
+    background-image: url(images/img-locations-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.location h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    flex-basis: 100%;
+    margin: 20px auto;
+}
+
+.contain {
+display: flex;
+flex-direction: row;
+gap: 40px;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+}
+
+@media (min-width: 50px) {
+    .location {
+        height: auto;
+        padding-bottom: 70px;
+    }
+}
+
+.card {
+    background-color: black;
+    width: 300px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid slategrey;
+    border-radius: 10px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.card:hover {
+    border: 1px solid seashell;
+    opacity: 0.9;
+}
+
+footer {
+    margin: 20px 20px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+h5, small {
+    padding: 0px;
+    margin: 10px;
+}
